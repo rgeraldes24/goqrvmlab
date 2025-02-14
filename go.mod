@@ -1,4 +1,4 @@
-module github.com/rgeraldes24/goevmlab
+module github.com/theQRL/gozvmlab
 
 go 1.22
 

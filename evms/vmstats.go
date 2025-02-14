@@ -5,7 +5,7 @@ import (
 
 	"sync/atomic"
 
-	"github.com/rgeraldes24/goevmlab/utils"
+	"github.com/theQRL/gozvmlab/utils"
 )
 
 type VmStat struct {

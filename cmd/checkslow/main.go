@@ -21,7 +21,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/rgeraldes24/goevmlab/common"
+	"github.com/theQRL/gozvmlab/common"
 	"github.com/urfave/cli/v2"
 )
 

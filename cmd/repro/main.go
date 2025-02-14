@@ -22,11 +22,11 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/rgeraldes24/goevmlab/common"
-	"github.com/rgeraldes24/goevmlab/ops"
-	"github.com/rgeraldes24/goevmlab/program"
-	"github.com/rgeraldes24/goevmlab/traces"
 	"github.com/theQRL/go-zond/log"
+	"github.com/theQRL/gozvmlab/common"
+	"github.com/theQRL/gozvmlab/ops"
+	"github.com/theQRL/gozvmlab/program"
+	"github.com/theQRL/gozvmlab/traces"
 	"github.com/urfave/cli/v2"
 )
 

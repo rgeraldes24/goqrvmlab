@@ -29,10 +29,10 @@ import (
 
 	"github.com/golang/snappy"
 	"github.com/holiman/uint256"
-	"github.com/rgeraldes24/goevmlab/ops"
 	"github.com/theQRL/go-zond/common"
 	"github.com/theQRL/go-zond/core/vm"
 	"github.com/theQRL/go-zond/zond/tracers/logger"
+	"github.com/theQRL/gozvmlab/ops"
 )
 
 type TraceLine struct {

@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"math/rand"
 
-	"github.com/rgeraldes24/goevmlab/ops"
-	"github.com/rgeraldes24/goevmlab/program"
 	"github.com/theQRL/go-zond/common"
+	"github.com/theQRL/gozvmlab/ops"
+	"github.com/theQRL/gozvmlab/program"
 )
 
 func fillPrecompileTest(gst *GstMaker, fork string) {

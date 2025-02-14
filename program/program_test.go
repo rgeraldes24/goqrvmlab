@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/rgeraldes24/goevmlab/ops"
 	"github.com/theQRL/go-zond/common"
+	"github.com/theQRL/gozvmlab/ops"
 )
 
 func TestPush(t *testing.T) {

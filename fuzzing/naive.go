@@ -4,9 +4,9 @@ import (
 	"crypto/rand"
 	"math/big"
 
-	"github.com/rgeraldes24/goevmlab/ops"
-	"github.com/rgeraldes24/goevmlab/program"
 	"github.com/theQRL/go-zond/common"
+	"github.com/theQRL/gozvmlab/ops"
+	"github.com/theQRL/gozvmlab/program"
 )
 
 func fillNaive(gst *GstMaker, fork string) {

@@ -25,9 +25,9 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/rgeraldes24/goevmlab/common"
-	"github.com/rgeraldes24/goevmlab/fuzzing"
 	"github.com/theQRL/go-zond/log"
+	"github.com/theQRL/gozvmlab/common"
+	"github.com/theQRL/gozvmlab/fuzzing"
 	"github.com/urfave/cli/v2"
 )
 

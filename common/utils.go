@@ -38,13 +38,13 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/rgeraldes24/goevmlab/evms"
-	"github.com/rgeraldes24/goevmlab/fuzzing"
-	"github.com/rgeraldes24/goevmlab/utils"
 	"github.com/theQRL/go-zond/common"
 	"github.com/theQRL/go-zond/common/hexutil"
 	"github.com/theQRL/go-zond/core"
 	"github.com/theQRL/go-zond/log"
+	"github.com/theQRL/gozvmlab/evms"
+	"github.com/theQRL/gozvmlab/fuzzing"
+	"github.com/theQRL/gozvmlab/utils"
 	"github.com/urfave/cli/v2"
 )
 

@@ -23,9 +23,6 @@ import (
 	"os"
 	"time"
 
-	common2 "github.com/rgeraldes24/goevmlab/common"
-	"github.com/rgeraldes24/goevmlab/ops"
-	"github.com/rgeraldes24/goevmlab/program"
 	"github.com/theQRL/go-zond/common"
 	"github.com/theQRL/go-zond/core"
 	"github.com/theQRL/go-zond/core/rawdb"
@@ -33,6 +30,9 @@ import (
 	"github.com/theQRL/go-zond/core/vm"
 	"github.com/theQRL/go-zond/core/vm/runtime"
 	"github.com/theQRL/go-zond/params"
+	common2 "github.com/theQRL/gozvmlab/common"
+	"github.com/theQRL/gozvmlab/ops"
+	"github.com/theQRL/gozvmlab/program"
 )
 
 func main() {

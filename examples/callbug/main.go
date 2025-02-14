@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/rgeraldes24/goevmlab/fuzzing"
-	"github.com/rgeraldes24/goevmlab/ops"
-	"github.com/rgeraldes24/goevmlab/program"
 	"github.com/theQRL/go-zond/common"
+	"github.com/theQRL/gozvmlab/fuzzing"
+	"github.com/theQRL/gozvmlab/ops"
+	"github.com/theQRL/gozvmlab/program"
 )
 
 func main() {
