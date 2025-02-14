@@ -65,7 +65,7 @@ RUN ls -la /go/goevmlab/tracediff
 #---------------------------------------------------------------
 
 #
-# EVMONE 
+# ZVMONE 
 #
 #
 # evmone requires g++ v13, which is _not_ available in debian bookworm (the golang image)
