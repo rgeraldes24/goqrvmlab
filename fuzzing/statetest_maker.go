@@ -26,13 +26,13 @@ import (
 	"github.com/theQRL/go-zond/common/hexutil"
 	"github.com/theQRL/go-zond/core/rawdb"
 	"github.com/theQRL/go-zond/core/vm"
+	"github.com/theQRL/go-zond/qrl/tracers/logger"
 	"github.com/theQRL/go-zond/tests"
-	"github.com/theQRL/go-zond/zond/tracers/logger"
 )
 
 // DisallowEOF makes it so that any statetest that are created never
 // contain 0xEF-prefixed code.
-// See https://github.com/theQRL/gozvmlab/issues/127
+// See https://github.com/theQRL/goqrvmlab/issues/127
 const DisallowEOF = true
 
 // The sender
@@ -75,7 +75,7 @@ func (g *GstMaker) SetPre(genesis *GenesisAlloc) {
 }
 
 func (g *GstMaker) AddAccount(address common.Address, a GenesisAccount) {
-	// See https://github.com/theQRL/gozvmlab/issues/127
+	// See https://github.com/theQRL/goqrvmlab/issues/127
 	// We must not allow any code in genesis to start with `0xEF`, otherwise
 	// evmone will reject the test.
 	// If the constant 'DisallowEof' is set, then we change `0xEF...` into `0xEE...`
@@ -95,7 +95,7 @@ func (g *GstMaker) GetDestination() common.Address {
 // SetCode sets the code at the given address (creating the account
 // if it did not previously exist)
 func (g *GstMaker) SetCode(address common.Address, code []byte) {
-	// See https://github.com/theQRL/gozvmlab/issues/127
+	// See https://github.com/theQRL/goqrvmlab/issues/127
 	// We must not allow any code in genesis to start with `0xEF`, otherwise
 	// evmone will reject the test.
 	// If the constant 'DisallowEof' is set, then we change `0xEF...` into `0xEE...`

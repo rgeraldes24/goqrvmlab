@@ -25,7 +25,7 @@ import (
 	"os"
 
 	"github.com/theQRL/go-zond/common"
-	"github.com/theQRL/gozvmlab/ops"
+	"github.com/theQRL/goqrvmlab/ops"
 )
 
 var (

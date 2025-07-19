@@ -23,10 +23,10 @@ import (
 	"strconv"
 
 	"github.com/theQRL/go-zond/log"
-	"github.com/theQRL/gozvmlab/common"
-	"github.com/theQRL/gozvmlab/ops"
-	"github.com/theQRL/gozvmlab/program"
-	"github.com/theQRL/gozvmlab/traces"
+	"github.com/theQRL/goqrvmlab/common"
+	"github.com/theQRL/goqrvmlab/ops"
+	"github.com/theQRL/goqrvmlab/program"
+	"github.com/theQRL/goqrvmlab/traces"
 	"github.com/urfave/cli/v2"
 )
 

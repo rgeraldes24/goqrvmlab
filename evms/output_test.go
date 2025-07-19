@@ -36,7 +36,7 @@ func TestVMsOutput(t *testing.T) {
 	for _, finfo := range finfos {
 		if finfo.Name() == "eofcode.json" {
 			// We skip this one. Evmone refuse to run it.
-			// https://github.com/theQRL/gozvmlab/issues/127
+			// https://github.com/theQRL/goqrvmlab/issues/127
 			continue
 		}
 		testVmsOutput(t, filepath.Join("testdata", "traces", finfo.Name()))
@@ -138,7 +138,7 @@ func testStateRootOnly(t *testing.T, vm Evm, name string) {
 		if err != nil {
 			if finfo.Name() == "eofcode.json" {
 				// We accept this failure. Evmone refuse to run it.
-				// https://github.com/theQRL/gozvmlab/issues/127
+				// https://github.com/theQRL/goqrvmlab/issues/127
 				t.Logf("case %d, %v: got error: %v (failure accepted)", i, finfo.Name(), err)
 				continue
 			}

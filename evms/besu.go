@@ -29,7 +29,7 @@ import (
 	"time"
 
 	"github.com/theQRL/go-zond/log"
-	"github.com/theQRL/go-zond/zond/tracers/logger"
+	"github.com/theQRL/go-zond/qrl/tracers/logger"
 )
 
 // BesuVM is s Evm-interface wrapper around the `evmtool` binary, based on Besu.

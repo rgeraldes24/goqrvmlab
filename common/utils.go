@@ -42,9 +42,9 @@ import (
 	"github.com/theQRL/go-zond/common/hexutil"
 	"github.com/theQRL/go-zond/core"
 	"github.com/theQRL/go-zond/log"
-	"github.com/theQRL/gozvmlab/evms"
-	"github.com/theQRL/gozvmlab/fuzzing"
-	"github.com/theQRL/gozvmlab/utils"
+	"github.com/theQRL/goqrvmlab/evms"
+	"github.com/theQRL/goqrvmlab/fuzzing"
+	"github.com/theQRL/goqrvmlab/utils"
 	"github.com/urfave/cli/v2"
 )
 

@@ -33,7 +33,7 @@ import (
 	"github.com/theQRL/go-zond/common/math"
 	"github.com/theQRL/go-zond/core/vm"
 	"github.com/theQRL/go-zond/log"
-	"github.com/theQRL/go-zond/zond/tracers/logger"
+	"github.com/theQRL/go-zond/qrl/tracers/logger"
 )
 
 type RethVM struct {

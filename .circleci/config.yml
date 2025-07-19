@@ -33,6 +33,6 @@ jobs:
           resource_class: large
 workflows:
   version: 2
-  gozvmlab:
+  goqrvmlab:
     jobs:
       - linux

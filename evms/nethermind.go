@@ -27,7 +27,7 @@ import (
 	"time"
 
 	"github.com/theQRL/go-zond/log"
-	"github.com/theQRL/go-zond/zond/tracers/logger"
+	"github.com/theQRL/go-zond/qrl/tracers/logger"
 )
 
 // NethermindVM is s Evm-interface wrapper around the `nethtest` binary, based on Nethermind.

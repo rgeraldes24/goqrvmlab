@@ -20,7 +20,7 @@ import (
 	"math/rand"
 
 	"github.com/theQRL/go-zond/log"
-	"github.com/theQRL/gozvmlab/ops"
+	"github.com/theQRL/goqrvmlab/ops"
 )
 
 type codeMutator struct {

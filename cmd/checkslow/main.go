@@ -21,14 +21,13 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/theQRL/gozvmlab/common"
+	"github.com/theQRL/goqrvmlab/common"
 	"github.com/urfave/cli/v2"
 )
 
 func initApp() *cli.App {
 	app := cli.NewApp()
 	app.Name = filepath.Base(os.Args[0])
-	app.Authors = []*cli.Author{{Name: "Martin Holst Swende"}}
 	app.Usage = "Tests execution speed on list of statetests"
 	app.Flags = append(app.Flags, common.VmFlags...)
 	app.Action = startTests

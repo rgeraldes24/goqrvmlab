@@ -30,8 +30,8 @@ import (
 	"github.com/theQRL/go-zond/core/vm"
 	"github.com/theQRL/go-zond/core/vm/runtime"
 	"github.com/theQRL/go-zond/params"
-	"github.com/theQRL/gozvmlab/ops"
-	"github.com/theQRL/gozvmlab/program"
+	"github.com/theQRL/goqrvmlab/ops"
+	"github.com/theQRL/goqrvmlab/program"
 )
 
 func main() {

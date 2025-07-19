@@ -25,8 +25,8 @@ import (
 
 	"github.com/theQRL/go-zond/common"
 	"github.com/theQRL/go-zond/common/hexutil"
-	"github.com/theQRL/gozvmlab/ops"
-	"github.com/theQRL/gozvmlab/program"
+	"github.com/theQRL/goqrvmlab/ops"
+	"github.com/theQRL/goqrvmlab/program"
 )
 
 type memFunc func() (offset, size interface{})

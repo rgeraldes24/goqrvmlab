@@ -1,6 +1,6 @@
 # Binaries
 
-This folder contains binaries for the various evms that gozvmlab can use. 
+This folder contains binaries for the various evms that goqrvmlab can use. 
 It will not be updated frequently, as these are pretty huge, but are needed
 in order to run some of the testcases. 
 

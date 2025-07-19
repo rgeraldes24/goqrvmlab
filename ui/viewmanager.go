@@ -22,8 +22,8 @@ import (
 
 	"github.com/gdamore/tcell/v2"
 	"github.com/rivo/tview"
-	"github.com/theQRL/gozvmlab/ops"
-	"github.com/theQRL/gozvmlab/traces"
+	"github.com/theQRL/goqrvmlab/ops"
+	"github.com/theQRL/goqrvmlab/traces"
 )
 
 const (

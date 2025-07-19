@@ -23,7 +23,7 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/theQRL/go-zond/common"
 	"github.com/theQRL/go-zond/core/vm"
-	"github.com/theQRL/gozvmlab/ops"
+	"github.com/theQRL/goqrvmlab/ops"
 )
 
 type Program struct {

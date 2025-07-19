@@ -25,8 +25,8 @@ import (
 	"sort"
 
 	"github.com/theQRL/go-zond/log"
-	"github.com/theQRL/gozvmlab/common"
-	"github.com/theQRL/gozvmlab/fuzzing"
+	"github.com/theQRL/goqrvmlab/common"
+	"github.com/theQRL/goqrvmlab/fuzzing"
 	"github.com/urfave/cli/v2"
 )
 

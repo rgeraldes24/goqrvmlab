@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/theQRL/go-zond/common/hexutil"
-	"github.com/theQRL/go-zond/zond/tracers/logger"
+	"github.com/theQRL/go-zond/qrl/tracers/logger"
 )
 
 func JsonMarshal(log *logger.StructLog) []byte {

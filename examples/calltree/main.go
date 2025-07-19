@@ -30,9 +30,9 @@ import (
 	"github.com/theQRL/go-zond/core/vm"
 	"github.com/theQRL/go-zond/core/vm/runtime"
 	"github.com/theQRL/go-zond/params"
-	common2 "github.com/theQRL/gozvmlab/common"
-	"github.com/theQRL/gozvmlab/ops"
-	"github.com/theQRL/gozvmlab/program"
+	common2 "github.com/theQRL/goqrvmlab/common"
+	"github.com/theQRL/goqrvmlab/ops"
+	"github.com/theQRL/goqrvmlab/program"
 )
 
 type dumbTracer struct {

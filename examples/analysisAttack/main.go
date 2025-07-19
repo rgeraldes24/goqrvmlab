@@ -32,10 +32,10 @@ import (
 	"github.com/theQRL/go-zond/core/state"
 	"github.com/theQRL/go-zond/core/vm"
 	"github.com/theQRL/go-zond/core/vm/runtime"
-	common2 "github.com/theQRL/gozvmlab/common"
-	"github.com/theQRL/gozvmlab/fuzzing"
-	"github.com/theQRL/gozvmlab/ops"
-	"github.com/theQRL/gozvmlab/program"
+	common2 "github.com/theQRL/goqrvmlab/common"
+	"github.com/theQRL/goqrvmlab/fuzzing"
+	"github.com/theQRL/goqrvmlab/ops"
+	"github.com/theQRL/goqrvmlab/program"
 	"github.com/urfave/cli/v2"
 )
 
