@@ -20,9 +20,9 @@ import (
 	crand "crypto/rand"
 	"math/rand"
 
+	"github.com/rgeraldes24/goqrvmlab/ops"
+	"github.com/rgeraldes24/goqrvmlab/program"
 	"github.com/theQRL/go-zond/common"
-	"github.com/theQRL/goqrvmlab/ops"
-	"github.com/theQRL/goqrvmlab/program"
 )
 
 // RandStorage sets some slots

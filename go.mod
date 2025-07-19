@@ -1,4 +1,4 @@
-module github.com/theQRL/goqrvmlab
+module github.com/rgeraldes24/goqrvmlab
 
 go 1.22
 

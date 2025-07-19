@@ -23,7 +23,7 @@ import (
 	"path/filepath"
 	"sync/atomic"
 
-	"github.com/theQRL/goqrvmlab/common"
+	"github.com/rgeraldes24/goqrvmlab/common"
 	"github.com/urfave/cli/v2"
 )
 

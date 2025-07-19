@@ -23,10 +23,10 @@ import (
 	"math/big"
 	"math/rand"
 
+	"github.com/rgeraldes24/goqrvmlab/ops"
+	"github.com/rgeraldes24/goqrvmlab/program"
 	"github.com/theQRL/go-zond/common"
 	"github.com/theQRL/go-zond/common/hexutil"
-	"github.com/theQRL/goqrvmlab/ops"
-	"github.com/theQRL/goqrvmlab/program"
 )
 
 type memFunc func() (offset, size interface{})

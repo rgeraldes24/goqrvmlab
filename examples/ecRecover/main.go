@@ -22,6 +22,9 @@ import (
 	"os"
 	"time"
 
+	common2 "github.com/rgeraldes24/goqrvmlab/common"
+	"github.com/rgeraldes24/goqrvmlab/ops"
+	"github.com/rgeraldes24/goqrvmlab/program"
 	"github.com/theQRL/go-zond/common"
 	"github.com/theQRL/go-zond/common/hexutil"
 	"github.com/theQRL/go-zond/core"
@@ -30,9 +33,6 @@ import (
 	"github.com/theQRL/go-zond/core/vm"
 	"github.com/theQRL/go-zond/core/vm/runtime"
 	"github.com/theQRL/go-zond/qrl/tracers/logger"
-	common2 "github.com/theQRL/goqrvmlab/common"
-	"github.com/theQRL/goqrvmlab/ops"
-	"github.com/theQRL/goqrvmlab/program"
 )
 
 func main() {

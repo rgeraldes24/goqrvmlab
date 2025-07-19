@@ -23,7 +23,7 @@ FROM golang:latest as golang-builder
 # Go-evmlab
 #
 
-RUN git clone https://github.com/theQRL/goqrvmlab --depth 1
+RUN git clone https://github.com/rgeraldes24/goqrvmlab --depth 1
 RUN cd goevmlab && \
   go build ./cmd/generic-fuzzer && \
   go build ./cmd/checkslow && \

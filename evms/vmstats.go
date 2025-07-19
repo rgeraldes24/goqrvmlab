@@ -5,7 +5,7 @@ import (
 
 	"sync/atomic"
 
-	"github.com/theQRL/goqrvmlab/utils"
+	"github.com/rgeraldes24/goqrvmlab/utils"
 )
 
 type VmStat struct {

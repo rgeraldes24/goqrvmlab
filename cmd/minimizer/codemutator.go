@@ -19,8 +19,8 @@ package main
 import (
 	"math/rand"
 
+	"github.com/rgeraldes24/goqrvmlab/ops"
 	"github.com/theQRL/go-zond/log"
-	"github.com/theQRL/goqrvmlab/ops"
 )
 
 type codeMutator struct {

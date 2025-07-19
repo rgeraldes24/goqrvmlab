@@ -22,8 +22,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/theQRL/goqrvmlab/traces"
-	"github.com/theQRL/goqrvmlab/ui"
+	"github.com/rgeraldes24/goqrvmlab/traces"
+	"github.com/rgeraldes24/goqrvmlab/ui"
 )
 
 func init() {

@@ -21,8 +21,8 @@ import (
 	"math/big"
 	"math/rand"
 
-	"github.com/theQRL/goqrvmlab/ops"
-	"github.com/theQRL/goqrvmlab/program"
+	"github.com/rgeraldes24/goqrvmlab/ops"
+	"github.com/rgeraldes24/goqrvmlab/program"
 )
 
 func oneOf(cases ...any) any {

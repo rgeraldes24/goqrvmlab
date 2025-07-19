@@ -25,6 +25,10 @@ import (
 	"strconv"
 	"time"
 
+	common2 "github.com/rgeraldes24/goqrvmlab/common"
+	"github.com/rgeraldes24/goqrvmlab/fuzzing"
+	"github.com/rgeraldes24/goqrvmlab/ops"
+	"github.com/rgeraldes24/goqrvmlab/program"
 	"github.com/theQRL/go-zond/common"
 	"github.com/theQRL/go-zond/common/hexutil"
 	"github.com/theQRL/go-zond/core"
@@ -32,10 +36,6 @@ import (
 	"github.com/theQRL/go-zond/core/state"
 	"github.com/theQRL/go-zond/core/vm"
 	"github.com/theQRL/go-zond/core/vm/runtime"
-	common2 "github.com/theQRL/goqrvmlab/common"
-	"github.com/theQRL/goqrvmlab/fuzzing"
-	"github.com/theQRL/goqrvmlab/ops"
-	"github.com/theQRL/goqrvmlab/program"
 	"github.com/urfave/cli/v2"
 )
 
